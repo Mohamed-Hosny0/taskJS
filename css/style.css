@@ -1,0 +1,296 @@
+body {
+    background: -webkit-linear-gradient(120deg, #002536, rgb(42, 0, 42), #002536);
+    background-size: 200%;
+    animation: color-movment 5s ease infinite;
+    height: auto;
+}
+
+@keyframes color-movment {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    z-index: 5555;
+}
+
+.form-control {
+    margin-left: 950px;
+}
+
+.nav-item {
+    padding-left: 30px;
+}
+
+.contain {
+    width: 80%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px 10px;
+}
+
+.hf {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.ss {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+image {
+    border: 20px solid black;
+}
+
+.ipad {
+    margin-top: 20px;
+}
+
+.if {
+    padding: 15px 0 15px 0;
+}
+
+.last {
+    grid-column-start: 2;
+
+}
+
+.prod {
+    height: 600px;
+    background-color: #eeeeee78;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.exp {
+    background-color: rgba(179, 179, 179, 0.746);
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.pod-title {
+    text-align: left;
+    padding-left: 20px;
+    text-shadow: 3px 3px 1px rgb(0, 0, 0);
+    color: white;
+}
+
+.pods-li {
+    text-align: left;
+}
+
+.pods {
+    margin-left: -20px;
+}
+
+.btn1 {
+    width: 200px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #007bff;
+    color: white;
+    border: 0;
+
+}
+
+#btn2 {
+    width: 150px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #007bff;
+    color: white;
+    position: fixed;
+    top: 50%;
+    right: 25px;
+    border: 0;
+    display: none;
+}
+
+#price-side {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    top: 57px;
+    right: 0;
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    display: none;
+    z-index: 0;
+}
+
+#price {
+    width: 200px;
+    height: 200px;
+    background-color: #212324;
+    margin-top: 500px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: none;
+    color: #ffffff;
+}
+
+.fin {
+    font-size: 50px;
+    border-radius: 25px;
+    color: white;
+    position: fixed;
+    top: 59%;
+    right: 76px;
+    display: none;
+}
+
+h5 {
+    color: #00ffa2;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+
+}
+
+.pods .pods-li {
+    color: white;
+}
+
+.pod-title:hover {
+    color: #000000;
+    cursor: pointer;
+    text-shadow: 3px 3px 1px rgb(255, 255, 255);
+
+}
+
+.btn1:active {
+    background-color: #0256b0;
+}
+
+#btn2:active {
+    background-color: #0256b0;
+}
+
+.pagination {
+    margin-left: 38%;
+    font-size: 20px;
+}
+
+#demo {
+    width: 78%;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+
+.bb {
+    width: 100%;
+}
+
+.sidebar {
+    position: fixed;
+    left: -250px;
+    top: 50px;
+    width: 250px;
+    height: 100%;
+    background: #343a40;
+    transition: all .5s ease;
+    border-top: 1px solid white;
+}
+
+.sidebar span {
+    font-size: 22px;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+    user-select: none;
+    padding-left: 60px;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    transition: .4s;
+}
+
+ul li:hover a {
+    padding-left: 50px;
+}
+
+.sidebar ul a i {
+    margin-right: 16px;
+}
+
+#check {
+    display: none;
+}
+
+label #btn,
+label #cancel {
+    position: absolute;
+    background: #343a40;
+    border-radius: 3px;
+    cursor: pointer;
+    padding-top: 50px;
+}
+
+label #btn {
+    left: -2px;
+    top: 56px;
+    font-size: 25px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+    position: fixed;
+}
+
+label #cancel {
+    z-index: 1111;
+    left: -195px;
+    top: 19px;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+
+#check:checked~.sidebar {
+    left: 0;
+    top: 56px;
+}
+
+#check:checked~label #btn {
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked~label #cancel {
+    left: 218px;
+    top: 57px;
+    position: fixed;
+}
+
+#check:checked~section {
+    margin-left: 250px;
+}
+
+ul li {
+    list-style-type: none;
+}

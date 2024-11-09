@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sales</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Listing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-primary my-2 my-sm-0" type="button">Search</button>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="bb" src="Images/big-banner-ixs2.jpg" alt="Los Angeles" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                    <img class="bb" src="Images/iphone-13-big-banner.jpg" alt="Chicago" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                    <img class="bb" src="Images/We Have Iphone 16's Just InCase!.png" alt="New York" width="1100"
+                        height="500">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+
+
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+        <span>More Options</span>
+        <ul>
+            <li><a href="#"><i class="fas fa-qrcode"></i>Dashboard</a></li>
+            <li><a href="#"><i class="fas fa-link"></i>Shortcuts</a></li>
+            <li><a href="#"><i class="fas fa-stream"></i>Overview</a></li>
+            <li><a href="#"><i class="fas fa-calendar-week"></i>Events</a></li>
+            <li><a href="#"><i class="far fa-question-circle"></i>About</a></li>
+            <li><a href="#"><i class="fas fa-sliders-h"></i>Services</a></li>
+            <li><a href="#"><i class="far fa-envelope"></i>Contact</a></li>
+        </ul>
+    </div>
+
+
+    <section>
+        <div class="contain">
+            <div class="prod">
+                <div class="exp">
+                    <img class="hf" src="Images/Apple-AirPods-Pro-2nd-gen-hero-220907_big.jpg.large.jpg" width="300"
+                        height="230" alt="mac">
+                </div>
+                <h2 price="169" class="pod-title">AirPods Pro</h2>
+                <ul class="pods">
+                    <li class="pods-li">Model: AirPods Pro</li>
+                    <li class="pods-li">Type: In-ear wireless earbuds</li>
+                    <li class="pods-li">Materials: Plastic and silicone.</li>
+                    <li class="pods-li">Active Noise Cancellation: Adaptive EQ.</li>
+                    <li class="pods-li">Audio: High-fidelity speakers.</li>
+                </ul>
+                <h5 class="pod2">Price: 169$ <sup><del>180$</del></sup> </h5>
+                <button class="btn1">Buy Now</button>
+            </div>
+            <div class="prod">
+                <div class="exp">
+                    <img src="Images/pngwing.com (1).png" width="280" height="280" alt="mac">
+                </div>
+                <h2 price="1299" class="pod-title">IMAC All In One</h2>
+                <ul class="pods">
+                    <li class="pods-li">Operating System: macOS</li>
+                    <li class="pods-li">Type: All-in-one desktop computer</li>
+                    <li class="pods-li">Graphics: Integrated Apple graphics or dedicated graphics options</li>
+                    <li class="pods-li">Camera: 1080p FaceTime HD camera.</li>
+                </ul>
+                <h5 class="pod2">Price: 1299$ <sup><del>1320$</del></sup> </h5>
+                <button class="btn1">Buy Now</button>
+            </div>
+            <div class="prod">
+                <div class="exp">
+                    <img class="qwe" src="Images/media_416f1799-6fb9-455b-b70d-9bea48d91a48-removebg-preview (1).png"
+                        width="320" height="280" alt="mac">
+                </div>
+                <h2 price="1064" class="pod-title">Macbook Air Mi3</h2>
+                <ul class="pods">
+                    <li class="pods-li">Model: Macbook Air Pro</li>
+                    <li class="pods-li">Operating System: macOS.</li>
+                    <li class="pods-li">Materials: Plastic and silicone tips for a snug.</li>
+                    <li class="pods-li">Graphics: Integrated graphics.</li>
+                    <li class="pods-li">Memory: RAM options from 8GB to 64GB.</li>
+                </ul>
+                <h5 class="pod2">Price: 1069$ <sup><del>1100$</del></sup> </h5>
+                <button class="btn1">Buy Now</button>
+            </div>
+            <div class="prod">
+                <div class="exp">
+                    <img src="Images/Watch-removebg-preview (1).png" width="300" height="280" alt="">
+                </div>
+                <h2 price="784" class="pod-title">Apple Watch</h2>
+                <ul class="pods">
+                    <li class="pods-li">Description: Apple’s flagship model</li>
+                    <li class="pods-li">Key Features: Always-On Retina display</li>
+                    <li class="pods-li">Materials: Metal,Hard-glass and silicone.</li>
+                    <li class="pods-li">Notifications: Ability to receive calls.</li>
+                    <li class="pods-li">Best For: Users who want latest technology</li>
+                </ul>
+                <h5 class="pod2">Price: 799$ <sup><del>825$</del></sup> </h5>
+                <button class="btn1">Buy Now</button>
+            </div>
+            <div class="prod">
+                <div class="exp">
+                    <img src="Images/head.png" width="300" height="300" alt="">
+                </div>
+                <h2 price="245" class="pod-title">Apple HeadPhones</h2>
+                <ul class="pods">
+                    <li class="pods-li">Model: Apple Headpones Pro</li>
+                    <li class="pods-li">Description: with the latest features</li>
+                    <li class="pods-li">Materials: Plastic and silicone tips in snug.</li>
+                    <li class="pods-li">Noise Cancellation: with Adaptive EQ.</li>
+                    <li class="pods-li">Transparency Mode: Allows outside sound.</li>
+                </ul>
+                <h5 class="pod2">Price: 245$ <sup><del>270$</del></sup> </h5>
+                <button class="btn1">Buy Now</button>
+            </div>
+            <div class="prod">
+                <div class="exp">
+                    <img class="ss" src="Images/Midnight-3-removebg-preview (1).png" width="300" height="210" alt="">
+                </div>
+                <h2 price="2900" class="pod-title">Macbook Pro</h2>
+                <ul class="pods">
+                    <li class="pods-li">Model: Macbook Pro</li>
+                    <li class="pods-li">Operating System: macOS.</li>
+                    <li class="pods-li">Materials: Metal and silicone.</li>
+                    <li class="pods-li">Graphics: Integrated graphics.</li>
+                    <li class="pods-li">Memory: RAM options from 8GB to 64GB.</li>
+                </ul>
+                <h5 class="pod2">Price: 2899$ <sup><del>2950$</del></sup> </h5>
+                <button class="btn1">Buy Now</button>
+            </div>
+            <div class="prod">
+                <div class="exp">
+                    <img class="if" src="Images/iphone-13-pro-max-500x500-removebg-preview.png" width="180" height="300"
+                        alt="">
+                </div>
+                <h2 price="538" class="pod-title">iphone 12 pro max</h2>
+                <ul class="pods">
+                    <li class="pods-li">Display: 6.1-inch Super Retina XDR OLED</li>
+                    <li class="pods-li">Camera System: 4K Dolby Vision HDR </li>
+                    <li class="pods-li">Storage Options: 64GB, 128GB, 256GB.</li>
+                    <li class="pods-li">Battery Life: Up to 17 hours of video playback.</li>
+                    <li class="pods-li">Colors: Black, White, RED, Green, Blue, Purple.</li>
+                </ul>
+                <h5 class="pod2">Price: 539$ <sup><del>580$</del></sup> </h5>
+                <button class="btn1">Buy Now</button>
+            </div>
+            <div class="prod">
+                <div class="exp">
+                    <img class="if" src="Images/iphone-12-pro-blue-hero-removebg-preview.png" width="180" height="300"
+                        alt="">
+                </div>
+                <h2 price="820" class="pod-title">iphone 13 pro max</h2>
+                <ul class="pods">
+                    <li class="pods-li">Display: 6.1-inch Super Retina XDR OLED</li>
+                    <li class="pods-li">Camera System: Styles and Cinematic. </li>
+                    <li class="pods-li">Storage Options: 64GB, 128GB, 256GB.</li>
+                    <li class="pods-li">Battery Life: Up to 24 hours of video.</li>
+                    <li class="pods-li">Colors: Black, White, RED, Green, Blue.</li>
+                </ul>
+                <h5 class="pod2">Price: 829$ <sup><del>870$</del></sup> </h5>
+                <button class="btn1">Buy Now</button>
+            </div>
+            <div class="prod last">
+                <div class="exp">
+                    <img class="if" src="Images/iPhone-17-Pro-Max-Price-in-UK-removebg-preview.png" width="200"
+                        height="300" alt="">
+                </div>
+                <h2 price="1199" class="pod-title">iphone 16 pro max</h2>
+                <ul class="pods">
+                    <li class="pods-li">Display: 6.7-inch ProMotion Super XDR </li>
+                    <li class="pods-li">Camera System: 8K video recording. </li>
+                    <li class="pods-li">Storage Options: 256GB, 512GB, 1TB.</li>
+                    <li class="pods-li">Battery Life: 29 hours of video playback.</li>
+                    <li class="pods-li">Colors: Black, White, RED, Green, Blue.</li>
+                </ul>
+                <h5 class="pod2">Price: 1199$ <sup><del>1240$</del></sup> </h5>
+                <button class="btn1">Buy Now</button>
+            </div>
+            <div class="prod">
+                <div class="exp">
+                    <img class="ipad" src="Images/arora-removebg-preview (1).png" width="320" height="280" alt="">
+                </div>
+                <h2 price="999" class="pod-title">Ipad Pro</h2>
+                <ul class="pods">
+                    <li class="pods-li">Model: Ipad Pro (Standered)</li>
+                    <li class="pods-li">Description: offering performance.</li>
+                    <li class="pods-li">Sizes: Available in 11-inch and 12.9-inch.</li>
+                    <li class="pods-li">Accessbility: Supports Apple Pencil.</li>
+                    <li class="pods-li">Graphics: Excellent for graphics-tasks.</li>
+                </ul>
+                <h5 class="pod2">Price: 999$ <sup><del>1050$</del></sup> </h5>
+                <button class="btn1">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <div id="price-side">
+    </div>
+    <i class="fa-solid fa-cart-arrow-down fin"></i>
+    <button id="btn2">Show Price</button>
+    <div id="price"></div>
+
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">4</a></li>
+        <li class="page-item"><a class="page-link" href="#">5</a></li>
+        <li class="page-item"><a class="page-link" href="#">6</a></li>
+        <li class="page-item"><a class="page-link" href="#">7</a></li>
+        <li class="page-item"><a class="page-link" href="#">8</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
